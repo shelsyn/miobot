@@ -5,13 +5,13 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotInventory from '@/images/screenshots/ddk.jpg'
+import screenshotProfitLoss from '@/images/screenshots/cindo.png'
 
 const features = [
   {
-    name: 'Atención médica de calidad.',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: '',
+    summary: 'Atención médica de calidad.',
     description:
       'El hospital cuenta con un equipo de profesionales altamente capacitados y comprometidos con brindar la mejor atención médica a sus pacientes. Podrías destacar la experiencia y la formación de los médicos y el personal de enfermería, así como las tecnologías y los equipos de vanguardia que se utilizan para brindar atención médica de alta calidad.',
     image: screenshotProfitLoss,
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Servicios integrales',
+    name: '',
     summary:
-    'Servicios integrales',
-      description:
-      ' El hospital ofrece una amplia gama de servicios médicos, desde atención de emergencia hasta cirugía especializada. Podrías destacar los diferentes servicios que se ofrecen, incluyendo las áreas de especialización médica, los programas de prevención y los servicios de diagnóstico.',
+      'Enfoque en el paciente.',
+    description:
+      ' El hospital se centra en brindar una atención personalizada y empática a cada paciente, asegurándose de que se sientan cómodos y seguros durante su estadía. Podrías destacar los servicios de apoyo al paciente, como servicios de traducción, servicios de alimentación y servicios de asistencia social, que se ofrecen para ayudar a los pacientes y sus familias a sentirse cuidados y apoyados en todo momento.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +72,11 @@ const features = [
     },
   },
   {
-    name: 'Enfoque en el paciente.',
+    name: '',
     summary:
-    'Enfoque en el paciente.',
+      'Servicios integrales',
     description:
-    ' El hospital se centra en brindar una atención personalizada y empática a cada paciente, asegurándose de que se sientan cómodos y seguros durante su estadía. Podrías destacar los servicios de apoyo al paciente, como servicios de traducción, servicios de alimentación y servicios de asistencia social, que se ofrecen para ayudar a los pacientes y sus familias a sentirse cuidados y apoyados en todo momento.',
+      ' El hospital ofrece una amplia gama de servicios médicos, desde atención de emergencia hasta cirugía especializada. Podrías destacar los diferentes servicios que se ofrecen, incluyendo las áreas de especialización médica, los programas de prevención y los servicios de diagnóstico.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -216,7 +216,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-          Beneficios de nuestro hospital.
+            Beneficios de nuestro hospital.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
           Nuestro hospital ofrece una amplia variedad de beneficios para nuestros pacientes, brindando la mejor atención médica y mejorando su calidad de vida.
