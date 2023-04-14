@@ -33,7 +33,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">mejora tu atencion con chatbot</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://teams.microsoft.com/l/chat/0/0?users=28:b17f5e7c-1e40-4b15-bd65-59f0611ee0d2"
           variant="outline"
         >
           <svg

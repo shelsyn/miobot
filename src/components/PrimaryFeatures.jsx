@@ -5,10 +5,10 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotExpenses from '@/images/screenshots/sskl.jpg'
+import screenshotPayroll from '@/images/screenshots/ddk.jpg'
+import screenshotReporting from '@/images/screenshots/uno.jpg'
+import screenshotVatReturns from '@/images/screenshots/cindo.png'
 
 const features = [
   {
@@ -72,11 +72,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Sobre nuestros servicios
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          En nuestro hospital, nos enorgullece ofrecer una amplia variedad de servicios médicos de calidad, desde atención de emergencia y hospitalización hasta servicios especializados de cirugía, rehabilitación, atención preventiva y atención pediátrica. Nuestro equipo de profesionales altamente capacitados y dedicados está aquí para proporcionarle la mejor atención médica posible en todo momento.
           </p>
         </div>
         <Tab.Group
