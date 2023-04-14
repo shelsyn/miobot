@@ -25,14 +25,13 @@ export function Hero() {
           </svg>
           <span className="relative">made simple</span>
         </span>{' '}
-        for small businesses.
+        Hospital Hercules
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+      En nuestro hospital, el cuidado y bienestar de nuestros pacientes es nuestra máxima prioridad. Bienvenidos a un lugar donde la atención médica y el compromiso con la salud se combinan para brindar una experiencia de excelencia en el cuidado de la salud.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get 6 months free</Button>
+        <Button href="/register">mejora tu atencion con chatbot</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
@@ -48,7 +47,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+        Contamos con alianzas estratégicas con múltiples países para enriquecer y fortalecer la experiencia de nuestro hospital.
         </p>
         <ul
           role="list"
